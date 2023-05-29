@@ -1,0 +1,69 @@
+.flex-all-centre{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn{
+   padding: 4px 10px;
+   color: var(--main-bg-color);
+   background: #fff;
+   border: 1.5px solid white;
+   border-radius: 1px;
+   cursor: pointer;
+   font-weight: bolder;
+   font-size: 15px;
+}
+
+.btn:hover{
+   font-weight: bolder;
+   color: rgb(51, 49, 49);
+   font-size: medium;
+}
+.my-1{
+   margin: 5px 0;
+   font-weight: 3px;
+}
+
+.my-2{
+   margin: 23px 0;
+}
+.text-centre{
+   text-align: center;
+}
+
+.tag1  img{
+   animation: widthAnimate 5s ease-in-out infinite 0.5s alternate-reverse;
+}
+
+.tag3  img{
+   animation: widthAnimate 5s ease-in infinite 0.5s alternate-reverse;
+}
+@keyframes widthAnimate {
+   from{
+      transform: rotate(0deg);
+   
+   }
+   to{
+      transform: rotate(-90deg);
+       
+   }
+   
+}
+
+.tag2  img{
+   animation: widtheAnimate 1s ease-in infinite 0.5s alternate;
+}
+@keyframes widtheAnimate {
+   from{
+      width: 50px;
+      height: 40px;
+   
+   }
+   to{
+      width: 55px;
+      height: 45px;
+       
+   }
+   
+}
